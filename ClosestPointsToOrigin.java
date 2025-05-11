@@ -1,3 +1,4 @@
+import java.util.PriorityQueue;
 class Solution {
     public int[][] kClosest(int[][] points, int k) {
         if(points.length==1||(k==points.length)) return points;
